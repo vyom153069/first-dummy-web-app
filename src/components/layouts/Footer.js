@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import '../../App.css';
  function Footer() {
     return (
-        <div className="main-footer fixed-bottom">
+        <div className="main-footer">
         <FooterContainer >
            <div className="container">
                <div className="row">
