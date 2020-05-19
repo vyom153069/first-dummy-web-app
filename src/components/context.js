@@ -18,8 +18,8 @@ class InfoProvider extends Component {
         this.setState(()=>{
             return {
                 detailInfo:item
-            }
-        })
+            };
+        });
     }
     render() {
         return (
@@ -35,7 +35,7 @@ class InfoProvider extends Component {
                 name:this.state.name,
                 avatar:this.state.avatar,
                 comment:this.state.comment,
-                handleDetail:this.state.handleDetail
+                handleDetail:this.handleDetail
             }}>
 
                 {this.props.children}
