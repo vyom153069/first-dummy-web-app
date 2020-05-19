@@ -18,8 +18,8 @@ export default function Navbar() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span >
-            <i className="fas fa-bars" style={{color:'#fff'}}></i>
+          <span>
+            <i className="fas fa-bars" style={{ color: "#fff" }}></i>
           </span>
         </button>
 
@@ -27,7 +27,8 @@ export default function Navbar() {
           <ul className="navbar-nav m-auto">
             <li className="nav-item active ">
               <Link className="nav-link text-white text-uppercase ml-5" to="/">
-                Home&nbsp;<i class="fas fa-home"></i>{" "}
+                <i class="fas fa-home"></i>
+                &nbsp;Home
                 <span class="sr-only">(current)</span>
               </Link>
             </li>
@@ -36,7 +37,8 @@ export default function Navbar() {
                 className="nav-link text-white text-uppercase ml-5"
                 to="/News"
               >
-                News
+                <i class="far fa-newspaper"></i>
+                &nbsp;News
               </Link>
             </li>
             <li className="nav-item">
@@ -44,7 +46,8 @@ export default function Navbar() {
                 className="nav-link text-white text-uppercase ml-5"
                 to="/Contacts"
               >
-                Contect us
+                <i class="fas fa-envelope-open-text"></i>
+                &nbsp;Contact Us
               </Link>
             </li>
           </ul>
